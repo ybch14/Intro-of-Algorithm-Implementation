@@ -12,14 +12,14 @@ Find the subarray whose values have the largest sum.
 class SubArray
 {
 private:
-	int left_index;
-	int right_index;
-	int array_sum;
+    int left_index;
+    int right_index;
+    int array_sum;
 public:
-	SubArray(int left, int right, int sum);
-	int left();
-	int right();
-	int sum();
+    SubArray(int left, int right, int sum);
+    int left();
+    int right();
+    int sum();
 };
 ```
 

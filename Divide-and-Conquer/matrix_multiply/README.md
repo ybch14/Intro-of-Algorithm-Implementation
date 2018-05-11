@@ -12,23 +12,23 @@ Multiply two square matrices (dimension restricted to power of 2 for simplificat
 class SquareMatrix
 {
 private:
-	int dimension;
-	double* matrix_data;
+    int dimension;
+    double* matrix_data;
 public:
-	SquareMatrix(int dim);
-	SquareMatrix(double* data, int dim);
-	SquareMatrix(const SquareMatrix& M);
-	~SquareMatrix();
-	int dim() const;
-	double data(int i, int j) const;
-	friend std::ostream& operator<<(std::ostream& os, SquareMatrix M);
-	friend SquareMatrix naive_multiply(const SquareMatrix& A, const SquareMatrix& B);
-	friend SquareMatrix strassen_multiply(const SquareMatrix& A, const SquareMatrix& B);
-	SquareMatrix multiply(SquareMatrix& B, char mode = 'n');
-	SquareMatrix operator+(SquareMatrix& B);
-	SquareMatrix operator-(SquareMatrix& B);
-	void operator=(SquareMatrix& B);
-	bool operator==(SquareMatrix& B);
+    SquareMatrix(int dim);
+    SquareMatrix(double* data, int dim);
+    SquareMatrix(const SquareMatrix& M);
+    ~SquareMatrix();
+    int dim() const;
+    double data(int i, int j) const;
+    friend std::ostream& operator<<(std::ostream& os, SquareMatrix M);
+    friend SquareMatrix naive_multiply(const SquareMatrix& A, const SquareMatrix& B);
+    friend SquareMatrix strassen_multiply(const SquareMatrix& A, const SquareMatrix& B);
+    SquareMatrix multiply(SquareMatrix& B, char mode = 'n');
+    SquareMatrix operator+(SquareMatrix& B);
+    SquareMatrix operator-(SquareMatrix& B);
+    void operator=(SquareMatrix& B);
+    bool operator==(SquareMatrix& B);
 };
 ```
 

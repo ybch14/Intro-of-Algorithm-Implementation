@@ -13,8 +13,8 @@ class Heap
 {
 private:
     int _max_size;
-	int _heap_size;
-	double* _heap_data;
+    int _heap_size;
+    double* _heap_data;
     inline int parent(int index);
     inline int left(int index);
     inline int right(int index);
@@ -25,11 +25,11 @@ public:
     double data(int index) const;
     void copy(double* dst, int length) const;
     Heap(int max_size);
-	Heap(double* data, int heap_size);
-	Heap(const Heap& H);
-	~Heap();
-	void operator=(const Heap& H);
-	void sort();
+    Heap(double* data, int heap_size);
+    Heap(const Heap& H);
+    ~Heap();
+    void operator=(const Heap& H);
+    void sort();
 }
 ```
 
