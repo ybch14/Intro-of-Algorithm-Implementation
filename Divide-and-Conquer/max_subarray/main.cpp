@@ -5,7 +5,7 @@ using namespace std;
 int main()
 {
 	SubArray max_subarray(int* A, int low, int high);
-	int a[16] = {13, -3, -25, 20, -3, -16, -23, 18, 20, -7, 12, -5, -22, 15, -4, 7};
+	int a[16] = { 13, -3, -25, 20, -3, -16, -23, 18, 20, -7, 12, -5, -22, 15, -4, 7 };
 	cout << "array:";
 	for (int i = 0; i < 16; i++)
 		cout << a[i] << ' ';
@@ -16,7 +16,7 @@ int main()
 		cout << a[i] << ' ';
 	cout << endl;
 
-	int b[4] = {1, -4, 3, -4};
+	int b[4] = { 1, -4, 3, -4 };
 	cout << "array:";
 	for (int i = 0; i < 4; i++)
 		cout << b[i] << ' ';
@@ -27,7 +27,7 @@ int main()
 		cout << b[i] << ' ';
 	cout << endl;
 
-	int c[5] = {-2, -4, -5, -1, -5};
+	int c[5] = { -2, -4, -5, -1, -5 };
 	cout << "array:";
 	for (int i = 0; i < 5; i++)
 		cout << c[i] << ' ';
@@ -36,6 +36,17 @@ int main()
 	cout << "max array: ";
 	for (int i = result.left(); i <= result.right(); i++)
 		cout << c[i] << ' ';
+	cout << endl;
+
+	int d[5] = { 1, 2, 3, 4, 5 };
+	cout << "array:";
+	for (int i = 0; i < 5; i++)
+		cout << d[i] << ' ';
+	cout << endl;
+	result = max_subarray(d, 0, 4);
+	cout << "max array: ";
+	for (int i = result.left(); i <= result.right(); i++)
+		cout << d[i] << ' ';
 	cout << endl;
 	return 0;
 }

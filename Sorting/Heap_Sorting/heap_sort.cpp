@@ -1,30 +1,28 @@
 #include "heap.h"
 #include <iostream>
 
-double* heap_sort(double* A, int length)
+void heap_sort(double* A, int length)
 {
 	Heap heap(A, length);
 	heap.sort();
-	double* result = new double[length];
-	for (int i = 0; i < length; i++)
-		result[i] = heap.data(i);
-	return result;
+	heap.copy(A, length);
 }
 
-double* insert_sort(double* A, int length)
+void insert_sort(double* A, int length)
 {
 	double* result = new double[length];
+	std::copy(A, A + length, result);
 	for (int i = 0; i < length; i++)
 	{
 		int j = i - 1;
-		while ((j >= 0) && (result[j] > A[i]))
+		while ((j >= 0) && (A[j] > result[i]))
 		{
-			result[j + 1] = result[j];
+			A[j + 1] = A[j];
 			j--;
 		}
-		result[j + 1] = A[i];
+		A[j + 1] = result[i];
 	}
-	return result;
+	delete[]result;
 }
 
 bool test_sort(double* A, int length)

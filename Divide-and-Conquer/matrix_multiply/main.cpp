@@ -48,6 +48,8 @@ int main()
 	start = clock();
 	S = A.multiply(B, 's');
 	std::cout << "strassen multiply time: " << (double)(clock() - start) / CLOCKS_PER_SEC << 's' << std::endl;
-	std::cout << "C == S? " << ((C == S)?"Yes!:)":"No!:(") << std::endl;
+	std::cout << "C == S? " << ((C == S)?"Yes! :)":"No! :(") << std::endl;
+	delete[]M1;
+	delete[]M2;
 	return 0;
 }

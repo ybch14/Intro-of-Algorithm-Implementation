@@ -5,9 +5,10 @@ This is a learning repo of _Introduction to Algorithm_ (3rd edition) implementat
 ## List 
 
 - Divide and Conquer
-	- Max subarray problem
-	- Strassen's matrix multiplication
+	- [Max subarray problem](Divide-and-Conquer/max_subarray/README.md)
+	- [Strassen's matrix multiplication](Divide-and-Conquer/matrix_multiply/README.md)
 - Sorting
-	- Insert sorting
-	- Merge sorting
-	- Heap sorting
+	- [Insert sorting](Sorting/Insert_Sorting/README.md)
+	- [Merge sorting](Sorting/Merge_Sorting/README.md)
+	- [Heap sorting](Sorting/Heap_Sorting/README.md)
+	- [Quick sorting](Sorting/Quick_Sorting/README.md)

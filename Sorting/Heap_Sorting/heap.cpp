@@ -62,7 +62,7 @@ Heap::Heap(double* data, int heap_size)
 	_heap_data = new double[_max_size];
 	std::copy(data, data + heap_size, _heap_data);
 	// 0 to int(heap_size / 2) are parent nodes
-	for (int i = int(heap_size/2)-1; i >= 0; i--)
+	for (int i = int(heap_size / 2) - 1; i >= 0; i--)
 		_heapify(i);
 }
 
@@ -74,8 +74,8 @@ void Heap::sort()
 		for (int i = 0; i < array_length; i++)
 		{
 			tmp = _heap_data[0];
-			_heap_data[0] = _heap_data[_heap_size-1];
-			_heap_data[_heap_size-1] = tmp;
+			_heap_data[0] = _heap_data[_heap_size - 1];
+			_heap_data[_heap_size - 1] = tmp;
 			_heap_size--;
 			_heapify(0);
 		}
