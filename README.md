@@ -14,3 +14,5 @@ This is a learning repo of _Introduction to Algorithm_ (3rd edition) implementat
 	- [Quick sorting](Sorting/Quick_Sorting/README.md)
 	- [Counting sorting](Sorting/Counting_Sorting/README.md)
 	- [Bucket sorting](Sorting/Bucket_Sorting/README.md)
+- Data Structure
+	- [Hash Table](Data-Structures/Hash_Table/README.md)
