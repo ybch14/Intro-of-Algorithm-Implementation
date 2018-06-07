@@ -9,7 +9,7 @@ Given 1000000 strings (distinct strings 300000), count the appearance time of ev
 ## Test sample
 
 - `['0', '1', '2', ..., '19', '0', '1', '2', ..., '19', '0', '1', '2', ..., '9']`
-- random generalized strings, distinct count 300000. (`[generate_data.py](generate_data.py)`)
+- random generalized strings, distinct count 300000. ([`generate_data.py`](generate_data.py))
 
 ## Output
 
