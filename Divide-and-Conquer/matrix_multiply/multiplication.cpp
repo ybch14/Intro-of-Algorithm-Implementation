@@ -1,6 +1,5 @@
-// square matrix multiplication
-#include <iostream>
 #include "matrix.h"
+
 // used for print square matrix 
 std::ostream& operator<<(std::ostream& os, SquareMatrix M)
 {

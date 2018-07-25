@@ -1,6 +1,3 @@
-#include <string>
-#include <iostream>
-#include <map>
 #include "hash_table.h"
 
 Node::Node()

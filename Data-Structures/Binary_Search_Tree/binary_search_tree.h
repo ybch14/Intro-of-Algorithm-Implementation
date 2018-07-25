@@ -1,6 +1,13 @@
 #ifndef _BINARY_SEARCH_TREE_H
 #define _BINARY_SEARCH_TREE_H
 
+#include <stack>
+#include <time.h>
+#include <vector>
+#include <iomanip> // std::setw
+#include <fstream>
+#include <iostream>
+
 class Node
 {
 public:

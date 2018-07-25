@@ -1,5 +1,4 @@
 #include "heap.h"
-#include <iostream>
 
 void heap_sort(double* A, int length)
 {

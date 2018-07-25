@@ -1,8 +1,3 @@
-#include <iostream>
-#include <fstream>
-#include <string>
-#include <map>
-#include <time.h>
 #include "hash_table.h"
 
 int main()

@@ -1,7 +1,12 @@
 // max heap
 #ifndef _HEAP_H
 #define _HEAP_H
+
 #include <algorithm>
+#include <iostream>
+#include <fstream>
+#include <time.h>
+
 class Heap
 {
 private:

@@ -1,6 +1,11 @@
 #ifndef _LIST_H
 #define _LIST_H
 
+#include <algorithm>
+#include <iostream>
+#include <fstream>
+#include <time.h>
+
 class List
 {
 private:

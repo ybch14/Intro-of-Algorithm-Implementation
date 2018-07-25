@@ -1,6 +1,10 @@
 #ifndef _HASH_TABLE_H
 #define _HASH_TABLE_H
+
+#include <map>
+#include <time.h>
 #include <string>
+#include <fstream>
 #include <iostream>
 
 class Node

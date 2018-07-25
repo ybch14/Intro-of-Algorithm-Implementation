@@ -1,6 +1,4 @@
 #include "heap.h"
-#include <iostream>
-#include <algorithm>
 
 Heap::Heap(int max_size)
 {

@@ -1,6 +1,3 @@
-#include <iostream>
-#include <fstream>
-#include <time.h>
 #include "heap.h"
 
 int main()

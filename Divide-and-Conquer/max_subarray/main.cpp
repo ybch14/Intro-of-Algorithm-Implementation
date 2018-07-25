@@ -1,4 +1,3 @@
-#include <iostream> // cout 
 #include "subarray.h" // SubArray
 using namespace std;
 

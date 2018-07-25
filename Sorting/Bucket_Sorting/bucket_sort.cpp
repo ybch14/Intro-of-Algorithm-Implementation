@@ -1,5 +1,3 @@
-#include <algorithm>
-#include <iostream>
 #include "list.h"
 
 void bucket_sort(double* A, int length)

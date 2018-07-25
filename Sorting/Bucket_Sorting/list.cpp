@@ -1,5 +1,3 @@
-#include <algorithm>
-#include <iostream>
 #include "list.h"
 
 List::List()

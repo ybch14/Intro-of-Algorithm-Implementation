@@ -1,7 +1,3 @@
-#include <stack>
-#include <vector>
-#include <iostream>
-#include <iomanip>
 #include "binary_search_tree.h"
 
 BST::BST()
