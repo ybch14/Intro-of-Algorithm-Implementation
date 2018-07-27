@@ -74,5 +74,10 @@ int main()
 			bst_query_result[i] = true;
 	std::cout << "BST search: " << (double)(clock() - start) / CLOCKS_PER_SEC << "s." << std::endl;
 	std::cout << "BST search correct? " << (test_search(bst_query_result, query_gt, length) ? "Yes! :)" : "No! :(") << std::endl;
+	delete[]bst_data;
+	delete[]query_seq;
+	delete[]query_gt;
+	delete[]bst_query_result;
+	delete[]lin_query_result; 
 	return 0;
 }

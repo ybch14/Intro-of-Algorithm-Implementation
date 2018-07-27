@@ -17,3 +17,4 @@ This is a learning repo of _Introduction to Algorithm_ (3rd edition) implementat
 - Data Structure
 	- [Hash Table](Data-Structures/Hash_Table/README.md)
 	- [Binary Search Tree](Data-Structures/Binary_Search_Tree/README.md)
+	- [Red Black Tree](Data-Structures/Red_Black_Tree/README.md)
