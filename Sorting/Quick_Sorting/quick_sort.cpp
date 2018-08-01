@@ -39,19 +39,18 @@ int partition(double* A, int low, int high)
 
 void insert_sort(double* A, int length)
 {
-	double* result = new double[length];
-	std::copy(A, A + length, result);
+	int j = 0; double tmp = 0.;
 	for (int i = 0; i < length; i++)
 	{
-		int j = i - 1;
-		while ((j >= 0) && (A[j] > result[i]))
+		j = i - 1;
+		tmp = A[i];
+		while ((j >= 0) && (A[j] > tmp))
 		{
 			A[j + 1] = A[j];
 			j--;
 		}
-		A[j + 1] = result[i];
+		A[j + 1] = tmp;
 	}
-	delete[]result;
 }
 
 bool test_sort(double* A, int length)

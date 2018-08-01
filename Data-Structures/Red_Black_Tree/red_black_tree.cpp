@@ -85,7 +85,10 @@ RBTNode* RBTree::successor(RBTNode* cur)
 void RBTree::transplant(RBTNode* src, RBTNode* dst)
 {
 	if (src == _root)
+	{
 		_root = dst;
+		_root->_parent = &_null;
+	}
 	else
 	{
 		dst->_parent = src->_parent;
