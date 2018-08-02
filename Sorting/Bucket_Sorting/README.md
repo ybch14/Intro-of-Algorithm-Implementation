@@ -34,7 +34,7 @@ public:
 
 - [`list.h`](list.h): list class definition.
 - [`list.cpp`](list.cpp): list class member function implementation.
-- [`bucked_sort.cpp`](bucked_sort.cpp): implementation of bucket sort (also includes insert/quick sort for comparison).
+- [`bucket_sort.cpp`](bucket_sort.cpp): implementation of bucket sort (also includes insert/quick sort for comparison).
 - [`main.cpp`](main.cpp): test samples.
 - [`A.txt`](A.txt): uniform distributed array to be sorted.
 - [`B.txt`](B.txt): normal distributed array to be sorted.

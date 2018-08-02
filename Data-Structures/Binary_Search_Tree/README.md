@@ -16,17 +16,8 @@ public:
 	Node* _left;
 	Node* _right;
 	Node* _parent;
-	Node(double value)
-	{
-		_value = value;
-		_left = NULL;
-		_right = NULL;
-		_parent = NULL;
-	}
-	double value()
-	{
-		return _value;
-	}
+	Node(double value);
+	double value();
 };
 
 class BST

@@ -26,7 +26,7 @@ public:
 ## File List
 
 - [`subarray.h`](subarray.h): class definition.
-- [`max_subarray.cpp`](max_subarray.h): find max subarray using divide-and-conquer method.
+- [`max_subarray.cpp`](max_subarray.cpp): find max subarray using divide-and-conquer method.
 - [`main.cpp`](main.cpp): test samples.
 
 ## Test sample 
