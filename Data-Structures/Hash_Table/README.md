@@ -64,6 +64,15 @@ public:
 };
 ```
 
+## File List
+
+- [`hash_table.h`](hash_table.h): hash table class definition.
+- [`hash_table.cpp`](hash_table.cpp): implementation of hash table class member functions.
+- [`main.cpp`](main.cpp): test samples.
+- [`generate_data.py`](generate_data.py): test sample generation.
+- [`data.txt`](data.txt): 1000000 strings.
+- [`ground_truth.txt`](ground_truth.txt): actual appear time of each distinct string.
+
 ## Test sample
 
 - `['0', '1', '2', ..., '19', '0', '1', '2', ..., '19', '0', '1', '2', ..., '9']`

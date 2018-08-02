@@ -30,6 +30,15 @@ public:
 };
 ```
 
+## File List
+
+- [`list.h`](list.h): list class definition.
+- [`list.cpp`](list.cpp): list class member function implementation.
+- [`bucked_sort.cpp`](bucked_sort.cpp): implementation of bucket sort (also includes insert/quick sort for comparison).
+- [`main.cpp`](main.cpp): test samples.
+- [`A.txt`](A.txt): uniform distributed array to be sorted.
+- [`B.txt`](B.txt): normal distributed array to be sorted.
+
 ## Test sample
 
 - [1.0, 0.2, 0.25, 0.65, 0.72, 0.881, 0.9, 0.01, 0.32, 0.98, 0.34, 1.0]

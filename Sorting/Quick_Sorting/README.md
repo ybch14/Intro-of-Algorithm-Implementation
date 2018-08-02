@@ -6,6 +6,12 @@ Quick Sort algorithm implementation.
 
 Sort a array from small to large.
 
+## File List
+
+- [`quick_sort.cpp`](quick_sort.cpp): implementation of quick sort (also includes insert sort for comparison).
+- [`main.cpp`](main.cpp): test samples.
+- [`data.txt`](data.txt): array to be sorted.
+
 ## Test sample
 
 - [1, 5, 6, 3, 4, 5, 6, 2, 1, 0]

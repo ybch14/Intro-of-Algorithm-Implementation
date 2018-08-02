@@ -23,6 +23,12 @@ public:
 };
 ```
 
+## File List
+
+- [`subarray.h`](subarray.h): class definition.
+- [`max_subarray.cpp`](max_subarray.h): find max subarray using divide-and-conquer method.
+- [`main.cpp`](main.cpp): test samples.
+
 ## Test sample 
 
 - [13, -3, -25, 20, -3, -16, -23, 18, 20, -7, 12, -5, -22, 15, -4, 7]

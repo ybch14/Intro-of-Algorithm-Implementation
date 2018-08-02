@@ -32,6 +32,13 @@ public:
 };
 ```
 
+## File List
+
+- [`matrix.h`](matrix.h): square matrix class definition.
+- [`multiplication.cpp`](multiplication.cpp): implementation of naive and strassen's multiplication.
+- [`main.cpp`](main.cpp): test samples.
+- [`A.txt`](A.txt), [`B.txt`](B.txt): two large matrices.
+
 ## Test sample
 
 - Small matrix

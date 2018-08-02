@@ -6,6 +6,12 @@ Merge Sort algorithm implementation.
 
 Sort a array from small to large.
 
+## File List
+
+- [`merge_sort.cpp`](merge_sort.cpp): implementation of merge sorting (also includes insert sorting for comparison)
+- [`main.cpp`](main.cpp): test samples.
+- [`data.txt`](data.txt): array to be sorted.
+
 ## Test sample
 
 - [1, 5, 6, 3, 4, 5, 6, 2, 1, 0]

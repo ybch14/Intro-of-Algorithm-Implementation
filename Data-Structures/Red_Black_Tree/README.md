@@ -47,6 +47,19 @@ public:
 };
 ```
 
+## File List
+
+- [`red_black_tree.h`](red_black_tree.h): Red black tree class definition.
+- [`red_black_tree.cpp`](red_black_tree.cpp): implementation of red black tree class member functions.
+- [`binary_search_tree.h`](binary_search_tree.h): Naive BST class definition (for comparison).
+- [`binary_search_tree.cpp`](binary_search_tree.cpp): implementation of naive BST class member functions.
+- [`functions.cpp`](functions.cpp): functions to make test samples and test query correctness.
+- [`main.cpp`](main.cpp): test samples.
+- [`generate_data.py`](generate_data.py): generate test data.
+- [`random_data.txt`](random_data.txt): randomly shuffled *data* array.
+- [`partly_sorted_data.txt`](partly_sorted_data.txt): partly sorted *data* array.
+- [`totally_sorted_data.txt`](totally_sorted_data.txt): totally sorted *data* array.
+
 ## Test Sample
 
 - Insert [41, 38, 31, 12, 19, 8] and delete in [8, 12, 19, 31, 38, 41] (Sample from *Introduction of Algorithm*).

@@ -33,6 +33,14 @@ public:
 }
 ```
 
+## File List
+
+- [`heap.h`](heap.h): heap class definition
+- [`heap.cpp`](heap.cpp): implementation of heap class member functions.
+- [`heap_sort.cpp`](heap_sort.cpp): implementation of heap sort (also includes insert sort for comparison).
+- [`main.cpp`](main.cpp): test samples.
+- [`data.txt`](data.txt): array to be sorted.
+
 ## Test sample
 
 - [1, 5, 6, 3, 4, 5, 6, 2, 1, 0]
