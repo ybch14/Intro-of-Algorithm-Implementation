@@ -19,3 +19,5 @@ This is a learning repo of _Introduction to Algorithm_ (3rd edition) implementat
 	- [Binary Search Tree](Data-Structures/Binary_Search_Tree/README.md)
 	- [Red Black Tree](Data-Structures/Red_Black_Tree/README.md)
 	- [Order Statistics Tree](Data-Structures/Order_Statistics_Tree/README.md)
+- Dynamic Programming
+	- [Rod Cutting Problem](Dynamic-Programming/Rod_Cutting_Problem/README.md)
