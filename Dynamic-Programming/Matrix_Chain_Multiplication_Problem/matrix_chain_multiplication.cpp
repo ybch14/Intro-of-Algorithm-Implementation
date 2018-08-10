@@ -10,7 +10,7 @@
 //     Note m(i, j) as the minimum operations of multiply from the ith matrix to 
 //     the jth matrix. Consider seperating this matrix chain at the kth matrix, then 
 //     m(i, j | seperated at k) = m(i, k) + m(k+1, j) + p(i-1)*pk*pj. Then we have:
-//         m(i, j) = min{m(i, k) + m(k+1, j) + p(i-1)*pk*pj)} where k from i to j-1
+//         m(i, j) = min{m(i, k) + m(k+1, j) + p(i-1)*pk*pj} where k from i to j-1
 #define INF 2147483647
 #include <iostream>
 void matrix_multiplication_bottom_up(int* dim, int* m, int* pos, int length)
