@@ -22,3 +22,4 @@ This is a learning repo of _Introduction to Algorithm_ (3rd edition) implementat
 - Dynamic Programming
 	- [Rod Cutting Problem](Dynamic-Programming/Rod_Cutting_Problem/README.md)
 	- [Matrix Chain Multiplication](Dynamic-Programming/Matrix_Chain_Multiplication_Problem/README.md)
+	- [Longest Common Subsequence](Dynamic-Programming/Longest_Common_Subsequence_Problem/README.md)
